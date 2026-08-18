@@ -1,0 +1,388 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         background-image: url(images1/wp9484917.jpg);
+    width: 1850px;
+    height: 1750px;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+span{
+    color: rgb(233, 198, 1);
+}
+header a{
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+}
+header h1{
+    margin-right: 300px;
+    font-size: 30px;
+    margin-top: 0;
+}
+header button{
+    margin-left: 300px;
+    padding: 8px 38px;
+    border: none;
+    background-color: rgb(233, 198, 1);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+header button:hover{
+    background-color: rgb(171, 145, 0);
+    color: rgb(254, 254, 254);    
+    transform: translateY(-2px);
+}
+header button:active{
+    background-color: rgb(248, 232, 144) ;
+    color: rgb(65, 65, 65);
+}
+main{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+main h1{
+    font-size: 120px;
+}
+main .b1{
+    padding: 8px 18px;
+    border: none;
+    background-color: rgb(233, 198, 1);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+main .b1:hover{
+    background-color: rgb(171, 145, 0);
+    color: rgb(254, 254, 254);    
+    transform: translateY(-2px);
+}
+main .b1:active{
+    background-color: rgb(248, 232, 144) ;
+    color: rgb(65, 65, 65);
+}
+main .b2{
+    padding: 8px 18px;
+    border: 1px solid white;
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+main .b2:hover{
+    background-color: rgb(53, 53, 53);
+    color: rgb(254, 254, 254);    
+    transform: translateY(-2px);
+}
+main .b2:active{
+    background-color: rgb(186, 186, 186) ;
+    color: rgb(65, 65, 65);
+}
+main p{
+    font-size: 28px;
+}
+.div3{
+    display: flex;
+margin-top: 40px;
+    gap: 40px;
+    justify-content:center ; 
+    
+}
+.div3 div{
+ width: 6cm;
+ height: 4.5cm;
+ border: none;
+ color: white;
+ 
+ border-radius: 40px;
+ text-align: center;
+ padding: 10px 17px 10px;
+background-color: rgb(6, 6, 6);
+ box-shadow: 2px 2px 20px rgb(120, 120, 120);
+}
+.div3 h1{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.div3 p{
+    font-size: 20px;
+}
+.div3 img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+     box-shadow: 2px 2px 20px  rgb(242, 236, 201);
+}
+.div4{
+    display: flex;
+    margin-top: 40px;
+        gap: 40px;
+        justify-content:center ; 
+}
+.div4 div{
+    width: 7cm;
+    height: 5cm;
+    border: none;
+    border-radius: 40px;
+    text-align: left;
+    color: white;
+    padding: 13px 15px 10px 25px;
+background-color: rgb(6, 6, 6);
+    transition: 0.5s ease-in-out;
+     box-shadow: 2px 2px 30px rgb(120, 120, 120);
+   }
+   .div4 div:hover{
+ background-color: rgb(54, 54, 54);
+    transform: translate(3px);
+    color:  rgb(233, 198, 1);
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgb(255, 251, 0);
+   }
+   .div4 img{
+    background-color: rgb(233, 198, 1);
+    border-radius: 50px;
+         box-shadow: 2px 2px 20px  rgb(242, 236, 201);
+   }
+   footer{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+   }
+   footer button{
+    padding: 10px 28px;
+    border: 1px solid white;
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+   }
+   footer button:hover{
+    background-color: rgb(53, 53, 53);
+    color: rgb(254, 254, 254);    
+    transform: translateY(-2px);
+}
+footer button:active{
+    background-color: rgb(186, 186, 186) ;
+    color: rgb(65, 65, 65);
+}
+
+@media(max-width:480px){
+    header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    }
+   main h1{
+    font-size: 50px;
+    text-align: left;
+   }
+   main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+   header button{
+    justify-content: left;
+    text-align: left ;
+   }
+   body{
+    background-color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         background-image: url(images1/wp9484917.jpg);
+    width: 0px;
+    height: 1800px;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+}
+
+@media (max-width:768px){
+    .div3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.ab1{
+    display: flex;
+    color: white;
+    font-size:29px ;
+    justify-content: center;
+    gap: 120px;
+
+}
+.ab1 img{
+    border-radius: 90px;
+    width: 800px;
+}
+.ab1 h1{
+  margin-top: 150px;
+}
+.ab2{
+    color:  white;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 25px;
+    margin-top: 80px;
+}
+.ab2 img{
+    border-radius: 20px;
+    width: 750px;
+}
+.ab3{
+    color: white;
+    justify-content: center;
+  margin-top: 90px;
+  font-size: 22px;
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+    margin-bottom: 90px;
+}
+.ab3 img{
+    background-color: rgb(233, 198, 1);
+    border-radius: 90px;
+}
+.ab3 .ab5{
+    justify-content: center;
+  gap: 90px;
+}
+.ab3 div{
+     display: flex;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+       margin-bottom: 0;
+}
+.cards img{
+    border-radius: 10px;
+}
+.div9{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content:center ;
+    gap: 70px;
+}
+.b3{
+    margin-top: 60px;
+    padding: 8px 28px;
+    border: 1px solid white;
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.b3:hover{
+    background-color: rgb(53, 53, 53);
+    color: rgb(254, 254, 254);    
+    transform: translateY(-2px);
+}
+.b3:active{
+    background-color: rgb(186, 186, 186) ;
+    color: rgb(65, 65, 65);
+}
+.div9 div{
+    padding: 10px 15px 30px 35px;
+  box-shadow: 2px 2px 20px rgb(201, 201, 201);
+    width: 10cm;
+    background-color: rgb(6, 6, 6);
+    
+    border-radius: 20px;
+    text-align: left;
+}
+.b4{
+    padding: 8px 28px;
+    border: none;
+    background-color: rgb(233, 198, 1);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.b4:hover{
+    background-color: rgb(171, 145, 0);
+    color: rgb(254, 254, 254);    
+    transform: translateY(-2px);
+}
+.b4:active{
+    background-color: rgb(248, 232, 144) ;
+    color: rgb(65, 65, 65);
+}
+.div9 button{
+    margin-top: 5px;
+}
+input{
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(25, 25, 25);
+    width: 250px;
+color: white;
+    padding: 18px 59px;
+    margin-top: 20px;
+}
+.div10{
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#plan{
+       border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(25, 25, 25);
+    padding: 18px 109px;
+      color: white;
+    font-weight: bolder;
+    
+}
+::placeholder{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+}
+#submit{
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+}
