@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IRON HOUSE</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="height: 1100px;">
-<header>
+<header data-aos="fade-right">
+
     <a href="index.html">
     <h1>IRON <span>HOUSE</span></h1>
 </a>
@@ -21,7 +23,7 @@
 </header>
  <h1 style="color: white; text-align: center;margin-top: 60px; font-size: 50px;">CHOOSE YOUR MEMBERSHIP</h1>
 <div class="div9">
- <div>
+ <div data-aos="fade-up">
     <h1 style="margin-bottom: 40px; margin-top: 40px;">BASIC</h1>
     <p><span class="sp2" style="font-size: 40px; color: white;">$19</span> /month</p>
     <p><span class="sp1">✓ </span>Gym Access</p>
@@ -31,7 +33,7 @@
         <button class="b3">GET STARTED</button>
         </a>
  </div>
-  <div style="box-shadow: 2px 2px 20px rgb(233, 198, 1);">
+  <div style="box-shadow: 2px 2px 20px rgb(233, 198, 1);" data-aos="fade-up">
     <h1 style="margin-bottom: 30px; margin-top: 30px; color: rgb(233, 198, 1);">PRO⭐</h1>
     <p><span class="sp2" style="font-size: 40px;">$39</span> /month</p>
     <p><span class="sp1">✓ </span>24/7 Gym Access</p>
@@ -43,7 +45,7 @@
         <button class="b4">GET STARTED</button>
         </a>
  </div>
-  <div>
+  <div data-aos="fade-up">
     <h1 style="margin-bottom: 30px; margin-top: 30px;">ELITE</h1>
     <p><span class="sp2" style="font-size: 40px; color: white;">$69</span> /month</p>
     <p><span class="sp1">✓ </span>Everything in PRO</p>
@@ -57,11 +59,17 @@
  </div>
 </div>
 
- <footer>
+ <footer data-aos="zoom-out">
     <h1 style="margin-top: 100px;">READY TO BECOME STRONGER?</h1>
     <a href="contact.html">
     <button>JOIN IRON<span> HOUSE</span></button>
     </a>
  </footer>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+ </script>
+ <script>
+    AOS.init();
+ </script>
 </body>
 </html>
